@@ -96,9 +96,8 @@ in
     git
     fastfetch
     ghostty
-    zsh-powerlevel10k
-    zsh-syntax-highlighting
-    zsh-autosuggestions
+    #zsh-syntax-highlighting
+    #zsh-autosuggestions
     chromium
   ];
 
