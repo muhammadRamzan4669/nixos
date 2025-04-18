@@ -15,9 +15,16 @@
 	btw = "echo i use Nix Os BY THE WAY!";
       };
     };
+    
+    programs.starship.enable = true;    
 
     home.packages = with pkgs; [
-     # zsh-powerlevel10k
-    ];
-
+      starship
+      ghostty
+      fastfetch
+      chromium
+      git
+      wget
+      neovim
+    ];    
   }
